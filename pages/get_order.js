@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Layout from '../component/layout'
 export default function get_order() {
   return (
-    <div>
-      <table width="25%" border={0}>
+    <div >
+      <Layout>
+      <table  width="25%" border={0}><br/>
+      <br/>
+      <br/>
+      <br/>
   <tbody><tr>
       <td><label htmlFor="nama">Nama</label><input className="form-control" type="text" name="nama" /></td>
     </tr>
@@ -45,8 +49,9 @@ export default function get_order() {
     <tr>
       <td><input className="btn btn-primary btn-lg btn-block" type="submit" name="Submit" defaultValue="Add" /></td>
     </tr>
-  </tbody></table>
-
+  </tbody>
+</table>
+</Layout>
     </div>
   )
 }

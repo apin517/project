@@ -31,14 +31,14 @@ export default function login() {
                         Me</label>
                     </div>
                   </div>
-                  <a href="index.html" className="btn btn-primary btn-user btn-block">
+                  <a href="http://localhost:3000/admin/tampilan" className="btn btn-primary btn-user btn-block">
                     Login
                   </a>
                   <hr />
-                  <a href="index.html" className="btn btn-google btn-user btn-block">
+                  <a href="https://accounts.google.com" className="btn btn-google btn-user btn-block">
                     <i className="fab fa-google fa-fw" /> Login with Google
                   </a>
-                  <a href="index.html" className="btn btn-facebook btn-user btn-block">
+                  <a href="https://www.facebook.com" className="btn btn-facebook btn-user btn-block">
                     <i className="fab fa-facebook-f fa-fw" /> Login with Facebook
                   </a>
                 </form>
